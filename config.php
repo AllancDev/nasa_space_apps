@@ -12,10 +12,10 @@
         $config['db_name'] = "db_nasa";
 
     } else {
-        $config['db_host'] = "";
-        $config['db_user'] = "";
-        $config['db_pass'] = "";
-        $config['db_name'] = "";
+        $config['db_host'] = "mysql.digitalsmartbr.com.br";
+        $config['db_user'] = "allancdev";
+        $config['db_pass'] = "Selftech@";
+        $config['db_name'] = "db_nasa";
     }
 
 

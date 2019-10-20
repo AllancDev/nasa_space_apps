@@ -1,4 +1,9 @@
 <?php 
-    define("ENVIRONMENT", "dev");
+    if($_SERVER['SERVER_NAME'] == 'localhost') {
+        define("ENVIRONMENT", "dev");
+    }  else {
+        define("ENVIRONMENT", "prod");
+    }
 
+    
 ?>
